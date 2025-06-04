@@ -4,4 +4,6 @@
 ## Inversion of Control
 Inversion of Control maily refers to inverting control that is transferring control. Programmers mainly handle the role of both flow of program and managing objects that involve creating objects, destroying objects, maintaining objects. But how? <br/>
 ![IOC Container](https://github.com/user-attachments/assets/f79b932c-e962-48be-9083-4fc2423bf6de)<br/>
-By using this IOC Container, this is the priciple that is followed to store objects the entire managememt of objects is done by Spring that is stored in IOC Container.
+By using this IOC Container, this is the priciple that is followed to store objects the entire managememt of objects is done by Spring that is stored in IOC Container.<br/>
+## Dependency Injection
+Dependency Injection is the one that takes objects that are stores in IOC Container and gives it to the one that requires it. 
