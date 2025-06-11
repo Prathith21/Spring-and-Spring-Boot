@@ -22,3 +22,6 @@ Only mentioned bean in xml file is created. How many times you mention that many
 
 ## Scope in Spring framework
 In Spring framework generally we use two scopes Singleton and Prototype. In Singleton when the xml file is loaded the objects get created. where as in Prototype when we call getBean at that time objects will be created. 
+
+## Setter Injection
+If we want to set some values to the variables we use the property name inside the bean tag in xml. we specify name of variable and its value. This calls setter methods to set the value so it is known as Setter Injection.
