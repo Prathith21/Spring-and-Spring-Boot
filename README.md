@@ -11,3 +11,9 @@ Dependency Injection is the one that takes objects that are stores in IOC Contai
 
 ## Spring Boot Configuration
 In Spring Boot if you need to change port you can do it by changing the port no in application properties as server.port = port no ( for ex: 8081)
+
+
+## Spring framework
+In Spring framework generally we dont create and manage objects , everything is taken care by Spring. So here we use Application Context that is used to get the objects from container , previously Bean factories were used.
+To use Application Context we need Spring Context
+Application Context is a super set of Bean factory.
