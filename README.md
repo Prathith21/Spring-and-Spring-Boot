@@ -17,3 +17,5 @@ In Spring Boot if you need to change port you can do it by changing the port no 
 In Spring framework generally we dont create and manage objects , everything is taken care by Spring. So here we use Application Context that is used to get the objects from container , previously Bean factories were used.
 To use Application Context we need Spring Context
 Application Context is a super set of Bean factory.
+In Application Context while we load the xml file the objects get created. and in getBean we just use the bean.
+Only mentioned bean in xml file is created. How many times you mention that many times bean will be created. 
