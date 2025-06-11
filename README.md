@@ -19,3 +19,6 @@ To use Application Context we need Spring Context
 Application Context is a super set of Bean factory.
 In Application Context while we load the xml file the objects get created. and in getBean we just use the bean.
 Only mentioned bean in xml file is created. How many times you mention that many times bean will be created. 
+
+## Scope in Spring framework
+In Spring framework generally we use two scopes Singleton and Prototype. In Singleton when the xml file is loaded the objects get created. where as in Prototype when we call getBean at that time objects will be created. 
