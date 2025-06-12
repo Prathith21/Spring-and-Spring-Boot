@@ -25,3 +25,6 @@ In Spring framework generally we use two scopes Singleton and Prototype. In Sing
 
 ## Setter Injection
 If we want to set some values to the variables we use the property name inside the bean tag in xml. we specify name of variable and its value. This calls setter methods to set the value so it is known as Setter Injection.
+
+## Ref Attribute
+Ref Attribute is used to assign the reference object of one class to another class. 
