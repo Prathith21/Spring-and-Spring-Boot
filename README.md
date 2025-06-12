@@ -37,3 +37,6 @@ We can assign the values to the variables by using value. it usually works based
 
 ## Lazy Initialization
 Lazy Initialization is used mainly when we want object to be created only when we call it and not when the context loads. It is singleton, this will be useful when we want objects to be created only when we call it. lazy-init="true" to make bean a lazy initialization.
+
+## GetBeanByType
+GetBeanByType is used to get the bean by specifying the class name. Usually when get the bean by using context it returns the object. So to get the bean in its type we have to specify classname.class of bean type so that context returns the bean in that format.
