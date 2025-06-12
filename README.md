@@ -34,3 +34,6 @@ Ref Attribute is used to assign the reference object of one class to another cla
 ## Constructor Injection
 Constructor is mainly used to intialize the values the objects. We can use Constructor-arg to initialize the values. 
 We can assign the values to the variables by using value. it usually works based on sequence and if we dont want according to sequence then we can use the index along with value . and we also have another option type that specifies type but if there multiple then it leads to problem.
+
+## Lazy Initialization
+Lazy Initialization is used mainly when we want object to be created only when we call it and not when the context loads. It is singleton, this will be useful when we want objects to be created only when we call it. lazy-init="true" to make bean a lazy initialization.
