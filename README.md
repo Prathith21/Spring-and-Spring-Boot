@@ -40,3 +40,6 @@ Lazy Initialization is used mainly when we want object to be created only when w
 
 ## GetBeanByType
 GetBeanByType is used to get the bean by specifying the class name. Usually when get the bean by using context it returns the object. So to get the bean in its type we have to specify classname.class of bean type so that context returns the bean in that format.
+
+## Java Based Configration
+In Java Based Configration we use java file inside config pacakage. Instead of xml file we used java file for configration purpose. We have to create a class and mention annotation @configration to mention that object needs to be created along with that in its constructor at top we mention @Bean
