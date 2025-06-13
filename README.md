@@ -52,3 +52,6 @@ If we want to change the scope then we can use @Scope("prototype")
 
 ## Autowired Annotation
 If you want to have wire between two beans then you can pass the bean that you want assign to the method. The bean then can be passed using setter. 
+
+## Qualifier and Primary
+Qualifier is used to specify exactly which bean to inject when multiple beans of the same type exist.@Qualifier("bean name") and @Primary tells Spring which bean to use by default when multiple candidates are available for autowiring.
