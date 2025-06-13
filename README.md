@@ -46,3 +46,6 @@ In Java Based Configration we use java file inside config pacakage. Instead of x
 
 ## Bean Name
 Usually bean name will be by default as method name but if we want to change the name of the bean we can use @Bean(name="") to change the name of the bean.
+
+## Bean Scope 
+If we want to change the scope then we can use @Scope("prototype")
