@@ -63,3 +63,6 @@ Qualifier is used to specify exactly which bean to inject when multiple beans of
 
 ## Component Stereotype Annotation
 @Component is used replace all the beans in configration file of Java. We dont need to create all those beans. We just need to specify @Component on top of class for those where objects has to be created. and we use @ComponentScan on top of Configration file to indicate which package to scan for components.
+
+## Value Annotation
+Value Annotation is mainly used to assign the values to the variables. We can also directly assign values like int age = 20 but its not a good practice and its hardcoding . So we use @Value("21") and here we can also get the values from properties file.
