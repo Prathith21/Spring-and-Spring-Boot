@@ -59,7 +59,7 @@ Setter Injection : We write @Autowired on top of setter. But this is recommended
 Constructor Injection : We write @Autowired on top of constructor.
 
 ## Qualifier and Primary
-Qualifier is used to specify exactly which bean to inject when multiple beans of the same type exist.@Qualifier("bean name") and @Primary tells Spring which bean to use by default when multiple candidates are available for autowiring.
+Qualifier is used to specify exactly which bean to inject when multiple beans of the same type exist.@Qualifier("bean name") and @Primary tells Spring which bean to use by default when multiple candidates are available for autowiring. @Qualifer has more priority then @Primary
 
 ## Component Stereotype Annotation
 @Component is used replace all the beans in configration file of Java. We dont need to create all those beans. We just need to specify @Component on top of class for those where objects has to be created. and we use @ComponentScan on top of Configration file to indicate which package to scan for components.
